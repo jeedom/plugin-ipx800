@@ -145,15 +145,15 @@ class ipx800_bouton extends eqLogic {
 		$this->setIsVisible(0);
 	}
 
-    public static function event() {
-        $cmd = ipx800_boutonCmd::byId(init('id'));
+    public static function eventroute($id,$state) {
+        $cmd = ipx800_boutonCmd::byId($id);
         if (!is_object($cmd)) {
-            throw new Exception('Commande ID virtuel inconnu : ' . init('id'));
+            throw new Exception('Commande ID virtuel inconnu : ' . $id);
         }
-		log::add('ipx800','debug',"Receive push notification for ".$cmd->getName()." (". init('id').") : value = ".init('state'));
-		if ($cmd->execCmd() != $cmd->formatValue(init('state'))) {
+		log::add('ipx800','debug',"Receive push notification for ".$cmd->getName()." (". $id.") : value = ".$state);
+		if ($cmd->execCmd() != $cmd->formatValue($state)) {
 			$cmd->setCollectDate('');
-			$cmd->event(init('state'));
+			$cmd->event($state);
 		}
     }
 
