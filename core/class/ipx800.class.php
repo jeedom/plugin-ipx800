@@ -410,19 +410,17 @@ class ipx800 extends eqLogic {
 	}
 
 	public function event() {
-		foreach (eqLogic::byType('ipx800') as $eqLogic) {
-			if ( $eqLogic->getId() == init('id') ) {
-				if (init('who') == 'ipx800_relai') {
-					$eqLogic->evenroute(init('id'),init('state'),init('value'));
-				} else if (init('who') == 'ipx800_compteur') {
-					$eqLogic->evenroute(init('id'),init('nbimpulsion'));
-				} else if (init('who') == 'ipx800_bouton') {
-					$eqLogic->evenroute(init('id'),init('state'));
-				} else if (init('who') == 'ipx800_analogique') {
-					$eqLogic->evenroute(init('id'),init('voltage'));
-				}
+      	log::add('ipx800','debug','TYPE EVENT : '.init('who') . ' ' . init('id') . ' ' . init('value'));
+      
+            if (init('who') == 'ipx800_relai') {
+				  ipx800_relai::eventroute(init('id'),init('value'));
+			} else if (init('who') == 'ipx800_compteur') {
+				ipx800_compteur::eventroute(init('id'),init('nbimpulsion'));
+			} else if (init('who') == 'ipx800_bouton') {
+				ipx800_bouton::eventroute(init('id'),init('state'));
+			} else if (init('who') == 'ipx800_analogique') {
+				ipx800_analogique::evenroute(init('id'),init('voltage'));
 			}
-		}
 	}
 
 	public function scan() {
