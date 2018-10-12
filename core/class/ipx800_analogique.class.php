@@ -196,14 +196,14 @@ class ipx800_analogique extends eqLogic {
 		$this->setIsVisible(0);
 	}
 
-    public static function event() {
-        $cmd = ipx800_analogiqueCmd::byId(init('id'));
+    public static function eventroute($id,$voltage) {
+        $cmd = ipx800_analogiqueCmd::byId($id);
         if (!is_object($cmd)) {
-            throw new Exception('Commande ID virtuel inconnu : ' . init('id'));
+            throw new Exception('Commande ID virtuel inconnu : ' . $id);
         }
-		if ($cmd->execCmd() != $cmd->formatValue(init('voltage'))) {
+		if ($cmd->execCmd() != $cmd->formatValue($voltage)) {
 			$cmd->setCollectDate('');
-			$cmd->event(init('voltage'));
+			$cmd->event($voltage);
 		}
     }
 
