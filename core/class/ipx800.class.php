@@ -412,7 +412,7 @@ class ipx800 extends eqLogic {
 	public function event() {
 		foreach (eqLogic::byType('ipx800') as $eqLogic) {
 			if ( $eqLogic->getId() == init('id') ) {
-				$eqLogic->scan();
+				$eqLogic->evenroute(init('id'),init('state'),init('value'));
 			}
 		}
 	}
