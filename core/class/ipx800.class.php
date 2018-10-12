@@ -412,7 +412,15 @@ class ipx800 extends eqLogic {
 	public function event() {
 		foreach (eqLogic::byType('ipx800') as $eqLogic) {
 			if ( $eqLogic->getId() == init('id') ) {
-				$eqLogic->evenroute(init('id'),init('state'),init('value'));
+				if (init('who') == 'ipx800_relai') {
+					$eqLogic->evenroute(init('id'),init('state'),init('value'));
+				} elif (init('who') == 'ipx800_compteur') {
+					$eqLogic->evenroute(init('id'),init('nbimpulsion'));
+				} elif (init('who') == 'ipx800_bouton') {ipx800_analogique
+					$eqLogic->evenroute(init('id'),init('state'));
+				} elif (init('who') == 'ipx800_analogique') {
+					$eqLogic->evenroute(init('id'),init('voltage'));
+				}
 			}
 		}
 	}
