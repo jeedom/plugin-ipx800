@@ -234,15 +234,15 @@ class ipx800_relai extends eqLogic {
 		$this->setIsVisible(0);
 	}
 
-    public static function eventroute($id,$state,$value) {
+    public static function eventroute($id,$state) {
         $cmd = ipx800_relaiCmd::byId($id);
         if (!is_object($cmd)) {
             throw new Exception('Commande ID virtuel inconnu : ' . $id);
         }
 		log::add('ipx800','debug',"Receive push notification for ".$cmd->getName()." (". $id.") : value = ".$state);
-		if ($cmd->execCmd() != $cmd->formatValue($value)) {
+		if ($cmd->execCmd() != $cmd->formatValue($state)) {
 			$cmd->setCollectDate('');
-			$cmd->event($value);
+			$cmd->event($state);
 		}
     }
 
