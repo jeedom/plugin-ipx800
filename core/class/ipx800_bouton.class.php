@@ -145,15 +145,15 @@ class ipx800_bouton extends eqLogic {
 		$this->setIsVisible(0);
 	}
 
-    public static function event() {
-        $cmd = ipx800_boutonCmd::byId(init('id'));
+    public static function eventroute($id,$state) {
+        $cmd = ipx800_boutonCmd::byId($id);
         if (!is_object($cmd)) {
-            throw new Exception('Commande ID virtuel inconnu : ' . init('id'));
+            throw new Exception('Commande ID virtuel inconnu : ' . $id);
         }
-		log::add('ipx800','debug',"Receive push notification for ".$cmd->getName()." (". init('id').") : value = ".init('state'));
-		if ($cmd->execCmd() != $cmd->formatValue(init('state'))) {
+		log::add('ipx800','debug',"Receive push notification for ".$cmd->getName()." (". $id.") : value = ".$state);
+		if ($cmd->execCmd() != $cmd->formatValue($state)) {
 			$cmd->setCollectDate('');
-			$cmd->event(init('state'));
+			$cmd->event($state);
 		}
     }
 
@@ -166,12 +166,12 @@ class ipx800_bouton extends eqLogic {
 		$result = @file_get_contents($url);
 		if ( $result === false )
 			throw new Exception(__('L\'ipx ne repond pas.',__FILE__));
-		$url = $url_serveur .'&cmd1='.urlencode($pathjeedom.'core/api/jeeApi.php?api='.jeedom::getApiKey('ipx800').'&plugin=ipx800&type=ipx800_bouton&id='.$cmd->getId().'&state=1');
+		$url = $url_serveur .'&cmd1='.urlencode($pathjeedom.'core/api/jeeApi.php?api='.jeedom::getApiKey('ipx800').'&plugin=ipx800&type=ipx800&who=ipx800_bouton&id='.$cmd->getId().'&state=1');
 		log::add('ipx800','debug',"get ".preg_replace("/:[^:]*@/", ":XXXX@", $url));
 		$result = @file_get_contents($url);
 		if ( $result === false )
 			throw new Exception(__('L\'ipx ne repond pas.',__FILE__));
-		$url = $url_serveur .'&cmd2='.urlencode($pathjeedom.'core/api/jeeApi.php?api='.jeedom::getApiKey('ipx800').'&plugin=ipx800&type=ipx800_bouton&id='.$cmd->getId().'&state=0');
+		$url = $url_serveur .'&cmd2='.urlencode($pathjeedom.'core/api/jeeApi.php?api='.jeedom::getApiKey('ipx800').'&plugin=ipx800&type=ipx800&who=ipx800_bouton&id='.$cmd->getId().'&state=0');
 		log::add('ipx800','debug',"get ".preg_replace("/:[^:]*@/", ":XXXX@", $url));
 		$result = @file_get_contents($url);
 		if ( $result === false )
