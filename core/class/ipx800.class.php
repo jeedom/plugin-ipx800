@@ -462,7 +462,7 @@ class ipx800 extends eqLogic {
 						if ($eqLogic_cmd->execCmd() != $eqLogic_cmd->formatValue($status[0])) {
 							log::add('ipx800','debug',"Change state off ".$eqLogicRelai->getName());
 							$eqLogic_cmd->setCollectDate('');
-							$eqLogic_cmd->event($status[0]);
+							$eqLogic_cmd->event((string) $status[0]);
 						}
 					}
 				}
@@ -479,7 +479,7 @@ class ipx800 extends eqLogic {
 						if ($eqLogic_cmd->execCmd() != $eqLogic_cmd->formatValue($status[0])) {
 							log::add('ipx800','debug',"Change state off ".$eqLogicBouton->getName());
 							$eqLogic_cmd->setCollectDate('');
-							$eqLogic_cmd->event($status[0]);
+							$eqLogic_cmd->event((string) $status[0]);
 						}
 					}
 				}
@@ -497,7 +497,7 @@ class ipx800 extends eqLogic {
 							log::add('ipx800','debug',"Change brut off ".$eqLogicAnalogique->getName());
 						}
 						$eqLogic_cmd->setCollectDate('');
-						$eqLogic_cmd->event($status[0]);
+						$eqLogic_cmd->event((string) $status[0]);
 						$eqLogic_cmd = $eqLogicAnalogique->getCmd(null, 'reel');
 						$eqLogic_cmd->event($eqLogic_cmd->execute());
 					}
@@ -535,7 +535,7 @@ class ipx800 extends eqLogic {
 							$nbimpulsionminute_cmd->event(0);
 						}
 						$nbimpulsion_cmd->setCollectDate(date('Y-m-d H:i:s'));
-						$nbimpulsion_cmd->event($status[0]);
+						$nbimpulsion_cmd->event((string) $status[0]);
 					}
 				}
 			}
