@@ -2,8 +2,8 @@
         <form class="form-horizontal">
             <fieldset>
                 <legend>
-                    <i class="fa fa-arrow-circle-left eqLogicAction cursor" data-action="returnToThumbnailDisplay"></i> {{Général}}
-				   <i class='fa fa-cogs eqLogicAction pull-right cursor expertModeVisible' data-action='configure'></i>
+                    <i class="fas fa-arrow-circle-left eqLogicAction cursor" data-action="returnToThumbnailDisplay"></i> {{Général}}
+				   <i class='fas fa-cogs eqLogicAction pull-right cursor expertModeVisible' data-action='configure'></i>
                 </legend>
                 <div class="form-group">
                     <label class="col-lg-2 control-label">{{Nom de l'entrée numérique}}</label>
@@ -18,7 +18,7 @@
                         <select class="form-control eqLogicAttr" data-l1key="object_id">
                             <option value="">{{Aucun}}</option>
                             <?php
-                            foreach (object::all() as $object) {
+                            foreach (jeeobject::all() as $object) {
                                 echo '<option value="' . $object->getId() . '">' . $object->getName() . '</option>';
                             }
                             ?>
