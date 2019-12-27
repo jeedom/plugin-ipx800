@@ -1,3 +1,7 @@
+# 11/10/2018
+
+- Correction de bugs sur Jeedom V4
+
 # 16/10/2018
 
 - Correction de bug sur le push

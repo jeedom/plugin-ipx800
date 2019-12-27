@@ -166,8 +166,8 @@ class ipx800 extends eqLogic {
 		if ( $this->getIsEnable() )
 		{
 			log::add('ipx800','debug','get '.preg_replace("/:[^:]*@/", ":XXXX@", $this->getUrl()). 'status.xml');
-			$this->xmlstatus = @simplexml_load_file($this->getUrl(). 'status.xml');
-			if ( $this->xmlstatus === false )
+			$this->_xmlstatus = @simplexml_load_file($this->getUrl(). 'status.xml');
+			if ( $this->_xmlstatus === false )
 				throw new Exception(__('L\'ipx800 ne repond pas.',__FILE__));
 		}
 	}
@@ -429,14 +429,14 @@ class ipx800 extends eqLogic {
 			$statuscmd = $this->getCmd(null, 'status');
 			$url = $this->getUrl();
 			log::add('ipx800','debug','get '.preg_replace("/:[^:]*@/", ":XXXX@", $url).'globalstatus.xml');
-			$this->xmlstatus = @simplexml_load_file($url. 'globalstatus.xml');
+			$this->_xmlstatus = @simplexml_load_file($url. 'globalstatus.xml');
 			$count = 0;
-			while ( $this->xmlstatus === false && $count < 3 ) {
+			while ( $this->_xmlstatus === false && $count < 3 ) {
 				log::add('ipx800','debug','reget '.preg_replace("/:[^:]*@/", ":XXXX@", $url).'globalstatus.xml');
-				$this->xmlstatus = @simplexml_load_file($url. 'globalstatus.xml');
+				$this->_xmlstatus = @simplexml_load_file($url. 'globalstatus.xml');
 				$count++;
 			}
-			if ( $this->xmlstatus === false ) {
+			if ( $this->_xmlstatus === false ) {
 				if ($statuscmd->execCmd() != 0) {
 					$statuscmd->setCollectDate('');
 					$statuscmd->event(0);
@@ -454,7 +454,7 @@ class ipx800 extends eqLogic {
 				if ( $eqLogicRelai->getIsEnable() && substr($eqLogicRelai->getLogicalId(), 0, strpos($eqLogicRelai->getLogicalId(),"_")) == $this->getId() ) {
 					$gceid = substr($eqLogicRelai->getLogicalId(), strpos($eqLogicRelai->getLogicalId(),"_")+2);
 					$xpathModele = '//led'.$gceid;
-					$status = $this->xmlstatus->xpath($xpathModele);
+					$status = $this->_xmlstatus->xpath($xpathModele);
 					
 					if ( count($status) != 0 )
 					{
@@ -471,7 +471,7 @@ class ipx800 extends eqLogic {
 				if ( $eqLogicBouton->getIsEnable() && substr($eqLogicBouton->getLogicalId(), 0, strpos($eqLogicBouton->getLogicalId(),"_")) == $this->getId() ) {
 					$gceid = substr($eqLogicBouton->getLogicalId(), strpos($eqLogicBouton->getLogicalId(),"_")+2);
 					$xpathModele = '//btn'.$gceid;
-					$status = $this->xmlstatus->xpath($xpathModele);
+					$status = $this->_xmlstatus->xpath($xpathModele);
 					
 					if ( count($status) != 0 )
 					{
@@ -488,7 +488,7 @@ class ipx800 extends eqLogic {
 				if ( $eqLogicAnalogique->getIsEnable() && substr($eqLogicAnalogique->getLogicalId(), 0, strpos($eqLogicAnalogique->getLogicalId(),"_")) == $this->getId() ) {
 					$gceid = substr($eqLogicAnalogique->getLogicalId(), strpos($eqLogicAnalogique->getLogicalId(),"_")+2);
 					$xpathModele = '//analog'.$gceid;
-					$status = $this->xmlstatus->xpath($xpathModele);
+					$status = $this->_xmlstatus->xpath($xpathModele);
 					
 					if ( count($status) != 0 )
 					{
@@ -507,7 +507,7 @@ class ipx800 extends eqLogic {
 				if ( $eqLogicCompteur->getIsEnable() && substr($eqLogicCompteur->getLogicalId(), 0, strpos($eqLogicCompteur->getLogicalId(),"_")) == $this->getId() ) {
 					$gceid = substr($eqLogicCompteur->getLogicalId(), strpos($eqLogicCompteur->getLogicalId(),"_")+2);
 					$xpathModele = '//count'.$gceid;
-					$status = $this->xmlstatus->xpath($xpathModele);
+					$status = $this->_xmlstatus->xpath($xpathModele);
 					
 					if ( count($status) != 0 )
 					{
