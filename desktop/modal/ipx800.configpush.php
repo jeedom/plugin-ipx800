@@ -90,7 +90,7 @@ echo '</ul>';
 Attention, chaque case validée renseignera le Push settings concerné de l'ipx800 et effacera la configuration existante. Pour les entrées analogique, les associations à des relais pourront être perdu.
 </div>
 <div id='div_configurePush' style="display: none;"></div>
-<a class="btn btn-warning pull-right" id="bt_ApplyconfigPush" style="color : white;"><i class="fa fa-wrench"></i> {{Appliquer}}</a>
-<a class="btn btn-success pull-right" id="bt_UnCheckAll" style="color : white;"><i class="fa fa-square-o"></i> {{Tout décocher}}</a>
-<a class="btn btn-success pull-right" id="bt_CheckAll" style="color : white;"><i class="fa fa-check-square-o"></i> {{Tout cocher}}</a>
+<a class="btn btn-warning pull-right" id="bt_ApplyconfigPush" style="color : white;"><i class="fas fa-wrench"></i> {{Appliquer}}</a>
+<a class="btn btn-success pull-right" id="bt_UnCheckAll" style="color : white;"><i class="fas fa-square-o"></i> {{Tout décocher}}</a>
+<a class="btn btn-success pull-right" id="bt_CheckAll" style="color : white;"><i class="fas fa-check-square-o"></i> {{Tout cocher}}</a>
 <?php include_file('desktop', 'ipx800', 'js', 'ipx800'); ?>

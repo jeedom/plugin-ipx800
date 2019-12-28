@@ -2,8 +2,9 @@
 if (!isConnect('admin')) {
     throw new Exception('{{401 - Accès non autorisé}}');
 }
-sendVarToJS('eqType', 'ipx800');
-$eqLogics = eqLogic::byType('ipx800');
+$plugin = plugin::byId('ipx800');
+sendVarToJS('eqType', $plugin->getId());
+$eqLogics = eqLogic::byType($plugin->getId());
 ?>
 
 <div class="row row-overflow">
@@ -301,7 +302,7 @@ $eqLogics = eqLogic::byType('ipx800');
                         <select class="form-control eqLogicAttr" data-l1key="object_id">
                             <option value="">{{Aucun}}</option>
                             <?php
-                            foreach (object::all() as $object) {
+                            foreach (jeeobject::all() as $object) {
                                 echo '<option value="' . $object->getId() . '">' . $object->getName() . '</option>'."\n";
                             }
                             ?>
