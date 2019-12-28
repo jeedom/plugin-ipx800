@@ -1,3 +1,7 @@
+# 27/12/2019
+
+- Correciton de bug sur l'attribut xmlstatus
+
 # 11/10/2018
 
 - Correction de bugs sur Jeedom V4
