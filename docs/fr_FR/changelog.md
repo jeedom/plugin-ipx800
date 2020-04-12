@@ -1,3 +1,7 @@
+# 2020-04-12
+
+- Correction de bug avec jeedom v4
+
 # 27/12/2019
 
 - Correciton de bug sur l'attribut xmlstatus
