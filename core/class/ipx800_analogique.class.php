@@ -40,8 +40,7 @@ class ipx800_analogique extends eqLogic {
 			$brut->setType('info');
 			$brut->setSubType('numeric');
 			$brut->setLogicalId('brut');
-			$brut->setIsVisible(false);
-			$brut->setEventOnly(1);
+			$brut->setIsVisible(0);
 			$brut->setDisplay('generic_type','GENERIC_INFO');
 			$brut->save();
 		}
@@ -168,7 +167,7 @@ class ipx800_analogique extends eqLogic {
 			$brut->setType('info');
 			$brut->setSubType('numeric');
 			$brut->setLogicalId('brut');
-			$brut->setIsVisible(false);
+			$brut->setIsVisible(0);
 			$brut->setEventOnly(1);
 			$brut->setDisplay('generic_type','GENERIC_INFO');
 			$brut->save();

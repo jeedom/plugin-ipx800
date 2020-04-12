@@ -2,7 +2,6 @@ Présentation
 ============
 
 Ce plugin permet de gérer les cartes IPX800 de GCE.
-
 Initialement, ce plugin a été créé pour connecter les IPX800 de GCE.
 
 Données visibles sur le Dashboard : 
