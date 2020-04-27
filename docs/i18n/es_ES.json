@@ -1,7 +1,7 @@
 {
     "changelog.md": {
-        "2020-04-12": "",
-        "Correction de bug avec jeedom v4": "",
+        "2020-04-12": "2020-04-12",
+        "Correction de bug avec jeedom v4": "Corrección de errores con jeedom v4",
         "27\/12\/2019": "12\/27\/2019",
         "Correciton de bug sur l'attribut xmlstatus": "Corrección de errores en el atributo xmlstatus",
         "11\/10\/2018": "10\/11\/2018",

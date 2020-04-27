@@ -1,6 +1,6 @@
-# 
+# 2020-04-12
 
-- 
+- Corrección de errores con jeedom v4
 
 # 12/27/2019
 
