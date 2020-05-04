@@ -38,9 +38,9 @@ Luego defina :
 
 -   ''Dirección IP''
 
--   ''Puerto''
+-   ''Port''
 
--   ''Cuenta''
+-   ''Compte''
 
 -   ''Contraseña''
 
@@ -63,7 +63,7 @@ Comportamiento con la aplicación móvil.
 
 Por defecto, aquí está el comportamiento :
 
--   ''El ip800''
+-   ''L'ip800''
 
 Todos los comandos están configurados.
 

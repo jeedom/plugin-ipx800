@@ -24,7 +24,7 @@
 -   Teniendo en cuenta las sondas CT100A y ORP Probe.
 -   Continuar la recolección cuando un IPX es HS.
 -   Atrapa ciertos mensajes de error.
--   Adición del tipo LIGHT \ _TOGGL para relés.
+-   Adición del tipo LIGHT\_TOGGL para relés.
 -   Definición de plantilla de relé de botón.
 -   Modificación para ser compatible con el complemento móvil.
 -   Actualización de entradas analógicas, incluso si el valor no cambia
@@ -42,7 +42,7 @@
     requerido para ser completado globalmente.
 -   Corrección de frecuencias de pulso por minuto..
 -   Mensaje de depuración para cálculos de pulso / minuto.
--   Supression de l'info `updatetime`.
+-   Eliminación de la información `updatetime`.
 -   Adición de abrazaderas 50A.
 -   Adición de corrección automática con respecto al umbral mínimo y máximo.
 -   Agregar enlace para mostrar opciones.
@@ -57,4 +57,4 @@
 -   Corregido cron para tomar solo cambios de estado.
 -   Posibilidad de configurar la inserción solo en ciertas entradas.
 -   Agregar fórmulas para entradas analógicas.
--   Ajout `all on` et `all off`.
+-   Agregar `todo encendido` y` todo apagado`.

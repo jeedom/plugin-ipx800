@@ -1,6 +1,6 @@
-# 
+# 2020-04-12
 
-- 
+- Bug correction with jeedom v4
 
 # 12/27/2019
 
@@ -24,7 +24,7 @@
 -   Taking into account the CT100A and ORP Probe probes.
 -   Continue collection when an IPX is HS.
 -   Traps certain error messages.
--   Addition of LIGHT \ _TOGGL type for relays.
+-   Addition of LIGHT\_TOGGL type for relays.
 -   Definition of button relay template.
 -   Modification to be compatible with the mobile plugin.
 -   Updating analog inputs, even if the value does not change
@@ -42,7 +42,7 @@
     required to be filled in globally.
 -   Correction of pulse frequencies per minute.
 -   Debug message for pulse / minute calculations.
--   Supression de l'info `updatetime`.
+-   Removal of the info `updatetime`.
 -   Addition of 50A clamps.
 -   Addition of Automatic correction with respect to the Min and Max threshold.
 -   Add link to display options.
@@ -57,4 +57,4 @@
 -   Fixed cron to only take state changes.
 -   Possibility to configure the push only on certain inputs.
 -   Add formulas for analog inputs.
--   Ajout `all on` et `all off`.
+-   Adding `all on` and` all off`.

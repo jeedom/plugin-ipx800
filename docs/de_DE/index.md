@@ -38,9 +38,9 @@ Dann definieren :
 
 -   ''IP-Adresse''
 
--   ''Hafen''
+-   ''Port''
 
--   ''Konto''
+-   ''Compte''
 
 -   ''Passwort''
 
@@ -63,7 +63,7 @@ Verhalten mit der mobilen Anwendung
 
 Standardmäßig ist hier das Verhalten :
 
--   ''Das ip800''
+-   ''L'ip800''
 
 Die Befehle sind alle konfiguriert.
 

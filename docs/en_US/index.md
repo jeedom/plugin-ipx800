@@ -40,7 +40,7 @@ Then define :
 
 -   ''Port''
 
--   ''Account''
+-   ''Compte''
 
 -   ''Password''
 
@@ -63,7 +63,7 @@ Behavior with the mobile application
 
 By default, here is the behavior :
 
--   ''The ip800''
+-   ''L'ip800''
 
 The commands are all configured.
 

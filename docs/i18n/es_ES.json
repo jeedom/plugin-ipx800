@@ -17,7 +17,7 @@
         "Prise en compte des sondes CT100A et ORP Probe": "Teniendo en cuenta las sondas CT100A y ORP Probe",
         "Continue la collecte lorsque une IPX est HS": "Continuar la recolección cuando un IPX es HS",
         "Trappe certains messages d'erreur": "Atrapa ciertos mensajes de error",
-        "Ajout du type LIGHT\\_TOGGL pour les relais": "Adición del tipo LIGHT \\ _TOGGL para relés",
+        "Ajout du type LIGHT\\_TOGGL pour les relais": "Adición del tipo LIGHT\\_TOGGL para relés",
         "Définition template des relais boutons": "Definición de plantilla de relé de botón",
         "Modification être compatible avec le plugin mobile": "Modificación para ser compatible con el complemento móvil",
         "Mise a jour des entrées analogiques, même si la valeur ne change pas": "Actualización de entradas analógicas, incluso si el valor no cambia",
@@ -35,6 +35,7 @@
         "nécessaire que ce soit renseigné au niveau globale": "requerido para ser completado globalmente",
         "Correction des fréquences d'impulsion par minute": "Corrección de frecuencias de pulso por minuto.",
         "Message de debug pour les calculs d'impulsion\/minute": "Mensaje de depuración para cálculos de pulso \/ minuto",
+        "Supression de l'info `updatetime`": "Eliminación de la información `updatetime`",
         "Ajout des pinces 50A": "Adición de abrazaderas 50A",
         "Ajout de Correction automatique par rapport au seuil Min et Max": "Adición de corrección automática con respecto al umbral mínimo y máximo",
         "Ajout de lien vers les options d'affichage": "Agregar enlace para mostrar opciones",
@@ -48,7 +49,8 @@
         "Prise en compte des unitées pour les entrées analogiques": "Consideración de las unidades para entradas analógicas.",
         "Correction de la cron pour ne prendre que les changements d'état": "Corregido cron para tomar solo cambios de estado",
         "Possibilité de configurer le push que sur certaines entrées": "Posibilidad de configurar la inserción solo en ciertas entradas",
-        "Ajout des formules pour les entrée analogiques": "Agregar fórmulas para entradas analógicas"
+        "Ajout des formules pour les entrée analogiques": "Agregar fórmulas para entradas analógicas",
+        "Ajout `all on` et `all off`": "Agregar `todo encendido` y` todo apagado`"
     },
     "index.md": {
         "Présentation": "Presentación ",
@@ -73,8 +75,6 @@
         "Visible'' (optionel si vous ne désirez pas le rendre visible sur": "Visible '' (opcional si no desea que sea visible en",
         "le Dashboard)": "el tablero de instrumentos)",
         "Adresse IP": "Dirección IP",
-        "Port": "Puerto",
-        "Compte": "Cuenta",
         "Mot de passe": "Contraseña",
         "Fréquence de rafraichissement": "Frecuencia de actualización",
         "Pour les entrées analogiques et les compteurs, les données sont": "Para entradas y contadores analógicos, los datos son",
@@ -87,7 +87,6 @@
         "Ensuite aller en bas et cliquer sur Appliquer": "Luego baja y haz clic en Aplicar",
         "Comportement avec l'application mobile": "Comportamiento con la aplicación móvil.",
         "Par defaut, voici le comportement": "Por defecto, aquí está el comportamiento",
-        "L'ip800": "El ip800",
         "Les commandes sont toutes paramétrées": "Todos los comandos están configurados",
         "Les commandes sont toutes par defaut visible et le type dépend de la": "Todos los comandos son visibles por defecto y el tipo depende de",
         "sonde choisi": "sonda elegida",
@@ -99,6 +98,21 @@
         "Pour les masquer, il faut choisir dans": "Para ocultarlos, debes elegir en",
         "Configuration commande\" ⇒ \"Type générique\" ⇒ \"Ne pas tenir compte de": "Configuración de comando \"⇒\" Tipo genérico \"⇒\" Desprecio",
         "cette commande": "este comando",
-        "Quelques copies d'écran": "Algunas capturas de pantalla"
+        "Quelques copies d'écran": "Algunas capturas de pantalla",
+        " Port.": " Puerto.",
+        " Port?": " Puerto?",
+        "Port ": "Puerto ",
+        "[Port": "[Puerto",
+        "Port]": "Puerto]",
+        " Compte.": " Cuenta.",
+        " Compte?": " Cuenta?",
+        "Compte ": "Cuenta ",
+        "[Compte": "[Cuenta",
+        "Compte]": "Cuenta]",
+        " L'ip800.": " El ip800.",
+        " L'ip800?": " El ip800?",
+        "L'ip800 ": "El ip800 ",
+        "[L'ip800": "[El ip800",
+        "L'ip800]": "El ip800]"
     }
 }
