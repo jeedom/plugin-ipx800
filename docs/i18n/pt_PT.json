@@ -66,7 +66,7 @@
         "Pour se faire, cliquer": "Para fazer isso, clique em",
         "sur ''Plugins \/ Protocole domotique \/ IPX800": "'' Plugins \/ Protocolo de automação residencial \/ IPX800",
         "Puis cliquer sur le bouton en haut à gauche ''Ajouter un équipement": "Em seguida, clique no botão no canto superior esquerdo '' Adicionar equipamento",
-        "Puis saisir le nom de l'équipement (ex": "Em seguida, digite o nome do equipamento (ex.",
+        "Puis saisir le nom de l'équipement (ex": "Em seguida, digite o nome do equipamento (ex",
         "IPX 1)": "IPX 1)",
         "Puis définir": "Então defina",
         "Objet parent": "Objeto pai",
@@ -104,15 +104,21 @@
         "Port ": "Porta ",
         "[Port": "[Porta",
         "Port]": "Porta]",
+        "*Port": "*Porta",
+        "Port*": "Porta*",
         " Compte.": " Conta.",
         " Compte?": " Conta?",
         "Compte ": "Conta ",
         "[Compte": "[Conta",
         "Compte]": "Conta]",
+        "*Compte": "*Conta",
+        "Compte*": "Conta*",
         " L'ip800.": " O ip800.",
         " L'ip800?": " O ip800?",
         "L'ip800 ": "O ip800 ",
         "[L'ip800": "[O ip800",
-        "L'ip800]": "O ip800]"
+        "L'ip800]": "O ip800]",
+        "*L'ip800": "*O ip800",
+        "L'ip800*": "O ip800*"
     }
 }

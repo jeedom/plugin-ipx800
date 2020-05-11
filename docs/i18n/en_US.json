@@ -104,15 +104,21 @@
         "Port ": "Port ",
         "[Port": "[Port",
         "Port]": "Port]",
+        "*Port": "*Port",
+        "Port*": "Port*",
         " Compte.": " Account.",
         " Compte?": " Account?",
         "Compte ": "Account ",
         "[Compte": "[Account",
         "Compte]": "Account]",
+        "*Compte": "*Account",
+        "Compte*": "Account*",
         " L'ip800.": " The ip800.",
         " L'ip800?": " The ip800?",
         "L'ip800 ": "The ip800 ",
         "[L'ip800": "[The ip800",
-        "L'ip800]": "The ip800]"
+        "L'ip800]": "The ip800]",
+        "*L'ip800": "*The ip800",
+        "L'ip800*": "The ip800*"
     }
 }

@@ -144,7 +144,7 @@
         "Tester": "Test",
         "Configurer l'IPX pour avoir le retour des etats": "Set the IPX for states return",
         "Accèder à l'interface de l'IPX": "Open IPX interface",
-        "Application de la configuration Push correcte": "Apply right  Push configuration "
+        "Application de la configuration Push correcte": "Apply right  Push configuration"
     },
     "plugins\/ipx800\/core\/ajax\/ipx800.ajax.php": {
         "401 - Accès non autorisé": "401 - Unauthorized access",
@@ -154,24 +154,24 @@
         "Aucune methode correspondante à : ": "No method corresponding to:"
     },
     "plugins\/ipx800\/core\/class\/ipx800_relai.class.php": {
-        "L\\'ipx ne repond pas.": "The ipx does not respond.",
+        "L\\'ipx ne repond pas.": "The ipx does not respond",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipment deactivated impossible to execute the command: '. $ this-> getHumanName ()"
     },
     "plugins\/ipx800\/core\/class\/ipx800_compteur.class.php": {
-        "La formule doit contenir une référecence à #brut#.": "The formula must contain a reference to # brut #."
+        "La formule doit contenir une référecence à #brut#.": "The formula must contain a reference to # brut #"
     },
     "plugins\/ipx800\/core\/class\/ipx800_analogique.class.php": {
-        "L\\'ipx ne repond pas.": "The ipx does not respond."
+        "L\\'ipx ne repond pas.": "The ipx does not respond"
     },
     "plugins\/ipx800\/core\/class\/ipx800_bouton.class.php": {
-        "L\\'ipx ne repond pas.": "The ipx does not respond.",
+        "L\\'ipx ne repond pas.": "The ipx does not respond",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipment deactivated impossible to execute the command: '. $ this-> getHumanName ()"
     },
     "plugins\/ipx800\/core\/class\/ipx800.class.php": {
-        "L\\'ipx800 ne repond pas.": "The ipx800 does not respond.",
-        "L\\'adresse IP ou le port local de jeedom ne sont pas définit (Administration => Configuration réseaux => Accès interne).": "The jeedom IP address or local port is not defined (Administration => Network configuration => Internal access).",
+        "L\\'ipx800 ne repond pas.": "The ipx800 does not respond",
+        "L\\'adresse IP ou le port local de jeedom ne sont pas définit (Administration => Configuration réseaux => Accès interne).": "The jeedom IP address or local port is not defined (Administration => Network configuration => Internal access)",
         "Impossible de trouver l\\'équipement : ": "Unable to find the equipment:",
-        "L\\'ipx ne repond pas.": "The ipx does not respond.",
+        "L\\'ipx ne repond pas.": "The ipx does not respond",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipment deactivated impossible to execute the command: '. $ this-> getHumanName ()"
     }
 }

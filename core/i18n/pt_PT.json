@@ -151,27 +151,27 @@
         "ipx800 eqLogic non trouvé : ": "ipx800 eqLogic não encontrado:",
         "L\\'IP de Jeedom ne doit pas contenir de \"\/\" : ": "O IP da Jeedom não deve conter \"\/\":",
         "Url de push sur ipx800 configuré": "URL de envio no ipx800 configurado",
-        "Aucune methode correspondante à : ": "Aucune methode correspondante à : "
+        "Aucune methode correspondante à : ": "Aucune methode correspondante à :"
     },
     "plugins\/ipx800\/core\/class\/ipx800_relai.class.php": {
-        "L\\'ipx ne repond pas.": "O ipx não responde.",
+        "L\\'ipx ne repond pas.": "O ipx não responde",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipamento desativado impossível de executar o comando: '. $ this-> getHumanName ()"
     },
     "plugins\/ipx800\/core\/class\/ipx800_compteur.class.php": {
-        "La formule doit contenir une référecence à #brut#.": "A fórmula deve conter uma referência a # brut #."
+        "La formule doit contenir une référecence à #brut#.": "A fórmula deve conter uma referência a # brut #"
     },
     "plugins\/ipx800\/core\/class\/ipx800_analogique.class.php": {
-        "L\\'ipx ne repond pas.": "O ipx não responde."
+        "L\\'ipx ne repond pas.": "O ipx não responde"
     },
     "plugins\/ipx800\/core\/class\/ipx800_bouton.class.php": {
-        "L\\'ipx ne repond pas.": "O ipx não responde.",
+        "L\\'ipx ne repond pas.": "O ipx não responde",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipamento desativado impossível de executar o comando: '. $ this-> getHumanName ()"
     },
     "plugins\/ipx800\/core\/class\/ipx800.class.php": {
-        "L\\'ipx800 ne repond pas.": "O ipx800 não responde.",
-        "L\\'adresse IP ou le port local de jeedom ne sont pas définit (Administration => Configuration réseaux => Accès interne).": "O endereço IP da jeedom ou a porta local não está definida (Administração => Configuração da rede => Acesso interno).",
+        "L\\'ipx800 ne repond pas.": "O ipx800 não responde",
+        "L\\'adresse IP ou le port local de jeedom ne sont pas définit (Administration => Configuration réseaux => Accès interne).": "O endereço IP da jeedom ou a porta local não está definida (Administração => Configuração da rede => Acesso interno)",
         "Impossible de trouver l\\'équipement : ": "Não foi possível encontrar o equipamento:",
-        "L\\'ipx ne repond pas.": "O ipx não responde.",
+        "L\\'ipx ne repond pas.": "O ipx não responde",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipamento desativado impossível de executar o comando: '. $ this-> getHumanName ()"
     }
 }

@@ -30,8 +30,8 @@
 -   Actualización de entradas analógicas, incluso si el valor no cambia
     para gráficos.
 -   Compatibilidad con Jeedom 2.0.
--   Modificación de Cron para mayor autonomía..
--   Modificación de la extensión del logo..
+-   Modificación de Cron para mayor autonomía.
+-   Modificación de la extensión del logo.
 -   Compatibilidad Imperihome.
 -   Retiro del retiro del equipo durante la desactivación
     plugin.
@@ -40,7 +40,7 @@
 -   Mensaje de depuración para recepciones push.
 -   Teniendo en cuenta el puerto para la libertad y la IP sin que sea
     requerido para ser completado globalmente.
--   Corrección de frecuencias de pulso por minuto..
+-   Corrección de frecuencias de pulso por minuto.
 -   Mensaje de depuración para cálculos de pulso / minuto.
 -   Eliminación de la información `updatetime`.
 -   Adición de abrazaderas 50A.
@@ -48,12 +48,12 @@
 -   Agregar enlace para mostrar opciones.
 -   Corrección cron doble.
 -   Soporte para contadores independientemente de los botones.
--   Suma del número de pulsos por minuto..
+-   Suma del número de pulsos por minuto.
 -   Agregar información de estado.
 -   Vuelva a disparar hasta 3 veces en caso de falta de disponibilidad de IPX.
 -   Teniendo en cuenta las extensiones x800 y x400.
 -   Corrección por recibir impulsos para entradas digitales.
--   Consideración de las unidades para entradas analógicas..
+-   Consideración de las unidades para entradas analógicas.
 -   Corregido cron para tomar solo cambios de estado.
 -   Posibilidad de configurar la inserción solo en ciertas entradas.
 -   Agregar fórmulas para entradas analógicas.

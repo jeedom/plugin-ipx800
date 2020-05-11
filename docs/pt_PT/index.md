@@ -23,7 +23,7 @@ Agora vamos configurar um dispositivo. Para fazer isso, clique em
 
 Em seguida, clique no botão no canto superior esquerdo '' Adicionar equipamento''
 
-Em seguida, digite o nome do equipamento (ex.. IPX 1).
+Em seguida, digite o nome do equipamento (ex. IPX 1).
 
 Então defina :
 
