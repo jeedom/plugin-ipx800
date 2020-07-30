@@ -31,7 +31,7 @@ Dann definieren :
 
 -   ''Kategorie '' (optional)
 
--   ''Aktiviere '' (überprüfe, sonst kann das Gerät nicht verwendet werden)
+-   ''Aktivieren Sie '' (kreuzen Sie an, sonst kann das Gerät nicht verwendet werden)
 
 -   ''Sichtbar '' (optional, wenn Sie es nicht sichtbar machen möchten
     das Dashboard)

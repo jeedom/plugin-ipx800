@@ -31,7 +31,7 @@ Luego defina :
 
 -   ''Categoría '' (opcional)
 
--   ''Activar '' (verificar, de lo contrario el equipo no será utilizable)
+-   ''Activar '' (marca, de lo contrario el equipo no será utilizable)
 
 -   ''Visible '' (opcional si no desea que sea visible en
     el tablero de instrumentos)

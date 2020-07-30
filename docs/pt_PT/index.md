@@ -31,10 +31,10 @@ Então defina :
 
 -   ''Categoria '' (opcional)
 
--   ''Ativar '' (marque, caso contrário, o equipamento não será utilizável)
+-   ''Ative '' (marque, caso contrário, o equipamento não será utilizável)
 
 -   ''Visível '' (opcional se você não quiser torná-lo visível em
-    o painel)
+    O painel)
 
 -   ''Endereço IP''
 
