@@ -151,7 +151,7 @@
         "ipx800 eqLogic non trouvé : ": "",
         "L\\'IP de Jeedom ne doit pas contenir de \"\/\" : ": "",
         "Url de push sur ipx800 configuré": "",
-        "Aucune methode correspondante à : ": "Aucune methode correspondante à : "
+        "Aucune methode correspondante à : ": "Aucune methode correspondante à :"
     },
     "plugins\/ipx800\/core\/class\/ipx800_relai.class.php": {
         "L\\'ipx ne repond pas.": "",

@@ -77,7 +77,7 @@
         "Supprimer": "Borrar",
         "Sauvegarder": "Guardar",
         "Sauvegarde effectuée avec succès": "Guardado correctamente",
-        "Utilisez l\\'icône suivant pour voir le détail de l\\'élément <i class=\"fa fa-sitemap\"><\/i>": "Utilice el siguiente icono para ver el detalle del elemento <i class=\"fa fa-sitemap\"><\/i> "
+        "Utilisez l\\'icône suivant pour voir le détail de l\\'élément <i class=\"fa fa-sitemap\"><\/i>": "Utilice el siguiente icono para ver el detalle del elemento <i class=\"fa fa-sitemap\"><\/i>"
     },
     "plugins\/ipx800\/desktop\/php\/ipx800_analogique.php": {
         "Général": "Principal",
@@ -134,7 +134,7 @@
         "Rechercher équipement": "Buscar dispositivo",
         "Formule standard": "Fórmula estándar",
         "Unite": "Unidad",
-        "Min": "Min",
+        "Min": "Bajo",
         "Max": "Max",
         "Historiser": "Guardar historial",
         "Afficher": "Mostrar",
@@ -154,24 +154,24 @@
         "Aucune methode correspondante à : ": "Ningún método correspondiente a:"
     },
     "plugins\/ipx800\/core\/class\/ipx800_relai.class.php": {
-        "L\\'ipx ne repond pas.": "El ipx no responde.",
+        "L\\'ipx ne repond pas.": "El ipx no responde",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipo desactivado imposible de ejecutar el comando: '. $ this-> getHumanName ()"
     },
     "plugins\/ipx800\/core\/class\/ipx800_compteur.class.php": {
-        "La formule doit contenir une référecence à #brut#.": "La fórmula debe contener una referencia a # brut #."
+        "La formule doit contenir une référecence à #brut#.": "La fórmula debe contener una referencia a # brut #"
     },
     "plugins\/ipx800\/core\/class\/ipx800_analogique.class.php": {
-        "L\\'ipx ne repond pas.": "El ipx no responde."
+        "L\\'ipx ne repond pas.": "El ipx no responde"
     },
     "plugins\/ipx800\/core\/class\/ipx800_bouton.class.php": {
-        "L\\'ipx ne repond pas.": "El ipx no responde.",
+        "L\\'ipx ne repond pas.": "El ipx no responde",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipo desactivado imposible de ejecutar el comando: '. $ this-> getHumanName ()"
     },
     "plugins\/ipx800\/core\/class\/ipx800.class.php": {
-        "L\\'ipx800 ne repond pas.": "El ipx800 no responde.",
-        "L\\'adresse IP ou le port local de jeedom ne sont pas définit (Administration => Configuration réseaux => Accès interne).": "La dirección IP de jeedom o el puerto local no están definidos (Administración => Configuración de red => Acceso interno).",
+        "L\\'ipx800 ne repond pas.": "El ipx800 no responde",
+        "L\\'adresse IP ou le port local de jeedom ne sont pas définit (Administration => Configuration réseaux => Accès interne).": "La dirección IP de jeedom o el puerto local no están definidos (Administración => Configuración de red => Acceso interno)",
         "Impossible de trouver l\\'équipement : ": "Incapaz de encontrar el equipo:",
-        "L\\'ipx ne repond pas.": "El ipx no responde.",
+        "L\\'ipx ne repond pas.": "El ipx no responde",
         "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipo desactivado imposible de ejecutar el comando: '. $ this-> getHumanName ()"
     }
 }
