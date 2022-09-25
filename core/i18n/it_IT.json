@@ -1,11 +1,11 @@
 {
     "plugins\/ipx800\/plugin_info\/install.php": {
-        "Une clef API \"ipx800\" a été configurée. Pensez à reconfigurer le push de chaque carte IPX800": ""
+        "Une clef API \"ipx800\" a été configurée. Pensez à reconfigurer le push de chaque carte IPX800": "Une clef API \"ipx800\" a été configurée. Pensez à reconfigurer le push de chaque carte IPX800"
     },
     "plugins\/ipx800\/desktop\/modal\/ipx800.configpush.php": {
         "401 - Accès non autorisé": "401 - Accesso non autorizzato",
-        "EqLogic ID ne peut etre vide": "",
-        "EqLogic non trouvé": "",
+        "EqLogic ID ne peut etre vide": "EqLogic ID ne peut etre vide",
+        "EqLogic non trouvé": "EqLogic non trouvé",
         "Relai": "Relé",
         "Entrée numérique": "Ingresso digitale",
         "Entrée analogique": "Ingresso analogico",
@@ -15,7 +15,7 @@
     },
     "plugins\/ipx800\/desktop\/modal\/help.ipx800.php": {
         "401 - Accès non autorisé": "401 - Accesso non autorizzato",
-        "URL : #IP_JEEDOM#\/core\/api\/jeeApi.php?apikey=<?php echo jeedom::getApiKey('ipx800') ?>&type=script&id=#id#&value=#value# ": ""
+        "URL : #IP_JEEDOM#\/core\/api\/jeeApi.php?apikey=<?php echo jeedom::getApiKey('ipx800') ?>&type=script&id=#id#&value=#value# ": "URL : #IP_JEEDOM#\/core\/api\/jeeApi.php?apikey=<?php echo jeedom::getApiKey('ipx800') ?>&type=script&id=#id#&value=#value#"
     },
     "plugins\/ipx800\/desktop\/php\/ipx800_relai.php": {
         "Général": "Principale",
@@ -48,13 +48,13 @@
         "Carte X440 1": "X440 Scheda 1",
         "Carte X440 2": "X440 Scheda 2",
         "Carte X440 3": "X440 Scheda 3",
-        "Extensions X200ph": "",
-        "Carte X200ph 1": "",
-        "Carte X200ph 2": "",
+        "Extensions X200ph": "Extensions X200ph",
+        "Carte X200ph 1": "Carte X200ph 1",
+        "Carte X200ph 2": "Carte X200ph 2",
         "Gestion": "Gestione",
         "Configuration": "Configurazione",
         "Mes IPX": "Il miei IPX",
-        "Vous n'avez pas encore d'IPX, cliquez sur Ajouter un équipement pour commencer": "",
+        "Vous n'avez pas encore d'IPX, cliquez sur Ajouter un équipement pour commencer": "Vous n'avez pas encore d'IPX, cliquez sur Ajouter un équipement pour commencer",
         "Général": "Principale",
         "Nom de l'ipx800": "Nome IPX800",
         "Objet parent": "Oggetto padre",
@@ -77,7 +77,7 @@
         "Supprimer": "Rimuovere",
         "Sauvegarder": "Salva",
         "Sauvegarde effectuée avec succès": "Backup completato con successo",
-        "Utilisez l\\'icône suivant pour voir le détail de l\\'élément <i class=\"fa fa-sitemap\"><\/i>": ""
+        "Utilisez l\\'icône suivant pour voir le détail de l\\'élément <i class=\"fa fa-sitemap\"><\/i>": "Utilisez l\\'icône suivant pour voir le détail de l\\'élément <i class=\"fa fa-sitemap\"><\/i>"
     },
     "plugins\/ipx800\/desktop\/php\/ipx800_analogique.php": {
         "Général": "Principale",
@@ -134,12 +134,12 @@
         "Rechercher équipement": "Ricerca strumentazione",
         "Formule standard": "Formula standard",
         "Unite": "Unità",
-        "Min": "",
-        "Max": "",
+        "Min": "Min",
+        "Max": "Max",
         "Historiser": "Storicizza",
         "Afficher": "Mostra",
         "Inverser": "Inverti",
-        "Correction Min\t Auto": "",
+        "Correction Min\t Auto": "Correction Min\t Auto",
         "Correction Max Auto": "Correzione automatica massima",
         "Tester": "Prova",
         "Configurer l'IPX pour avoir le retour des etats": "Imposta l\\'IPX per il ritorno stati",
@@ -148,30 +148,30 @@
     },
     "plugins\/ipx800\/core\/ajax\/ipx800.ajax.php": {
         "401 - Accès non autorisé": "401 - Accesso non autorizzato",
-        "ipx800 eqLogic non trouvé : ": "",
-        "L\\'IP de Jeedom ne doit pas contenir de \"\/\" : ": "",
-        "Url de push sur ipx800 configuré": "",
+        "ipx800 eqLogic non trouvé : ": "ipx800 eqLogic non trouvé :",
+        "L\\'IP de Jeedom ne doit pas contenir de \"\/\" : ": "L\\'IP de Jeedom ne doit pas contenir de \"\/\" :",
+        "Url de push sur ipx800 configuré": "Url de push sur ipx800 configuré",
         "Aucune methode correspondante à : ": "Nessun metodo corrispondente a:"
     },
     "plugins\/ipx800\/core\/class\/ipx800_relai.class.php": {
-        "L\\'ipx ne repond pas.": "",
-        "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": ""
+        "L\\'ipx ne repond pas.": "L\\'ipx ne repond pas",
+        "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()"
     },
     "plugins\/ipx800\/core\/class\/ipx800_compteur.class.php": {
-        "La formule doit contenir une référecence à #brut#.": ""
+        "La formule doit contenir une référecence à #brut#.": "La formule doit contenir une référecence à #brut#"
     },
     "plugins\/ipx800\/core\/class\/ipx800_analogique.class.php": {
-        "L\\'ipx ne repond pas.": ""
+        "L\\'ipx ne repond pas.": "L\\'ipx ne repond pas"
     },
     "plugins\/ipx800\/core\/class\/ipx800_bouton.class.php": {
-        "L\\'ipx ne repond pas.": "",
-        "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": ""
+        "L\\'ipx ne repond pas.": "L\\'ipx ne repond pas",
+        "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()"
     },
     "plugins\/ipx800\/core\/class\/ipx800.class.php": {
-        "L\\'ipx800 ne repond pas.": "",
-        "L\\'adresse IP ou le port local de jeedom ne sont pas définit (Administration => Configuration réseaux => Accès interne).": "",
-        "Impossible de trouver l\\'équipement : ": "",
-        "L\\'ipx ne repond pas.": "",
-        "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": ""
+        "L\\'ipx800 ne repond pas.": "L\\'ipx800 ne repond pas",
+        "L\\'adresse IP ou le port local de jeedom ne sont pas définit (Administration => Configuration réseaux => Accès interne).": "L\\'adresse IP ou le port local de jeedom ne sont pas définit (Administration => Configuration réseaux => Accès interne)",
+        "Impossible de trouver l\\'équipement : ": "Impossible de trouver l\\'équipement :",
+        "L\\'ipx ne repond pas.": "L\\'ipx ne repond pas",
+        "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()": "Equipement desactivé impossible d\\éxecuter la commande : ' . $this->getHumanName()"
     }
 }
